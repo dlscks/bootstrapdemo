@@ -8,8 +8,10 @@
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet"
     />
     <script
       defer
@@ -18,5 +20,23 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body></body>
+  <body>
+    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+    <!--
+        --bootstrap : CSS, Javascript을 제공해주는 프레임워크이다.
+        --Bootstrap 5는 jquery 와 IE(인터넷 익스플로어)을 지원하지 않는다.
+        -- md 는 디바이스 크기에 따라 변경됨.
+    -->
+    <!-- <div class="grid text-center">
+      <div class="g-col-4">.g-col-4</div>
+      <div class="g-col-4">.g-col-4</div>
+      <div class="g-col-4">.g-col-4</div>
+    </div> -->
+
+    <div class="grid text-center">
+      <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+      <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+      <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+    </div>
+  </body>
 </html>
